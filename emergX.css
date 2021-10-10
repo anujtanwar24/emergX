@@ -1,0 +1,209 @@
+#navtext {
+    color: white !important;
+}
+
+.heading {
+    text-align: center;
+    padding: 15%;
+    background-color: #A2D2FF;
+}
+
+.disc {
+    display: flex;
+    align-items: center;
+}
+
+.disc p {
+    padding: 15%;
+}
+
+.img img {
+    height: 24rem;
+    transition: cubic-bezier(1, 0, 0, 1);
+}
+
+.img img:hover {
+    transform: scale(1.1);
+}
+
+.doctor-user {
+    display: flex;
+    padding: 5% 10%;
+    background-color: #A2D2FF;
+}
+
+.doc {
+    text-align: center;
+    padding: 0 10%;
+    margin: 5%;
+    background-color: #B5DEFF;
+    border-radius: 10%;
+}
+
+.doc:hover {
+    transform: scaleY(1.1);
+}
+
+.doc p {
+    padding: 10%;
+}
+
+.bottom {
+    display: flex;
+    padding: 3%;
+    background-color: #444444;
+}
+
+.bottom .fas {
+    margin: 0 10%;
+}
+
+.doctoruser {
+    padding: 10%;
+    text-align: center;
+}
+
+.doctoruserimg {
+    display: flex;
+}
+
+.doctoruserimgs {
+    margin: 3%;
+    height: 20rem;
+    width: 20rem;
+}
+
+.docimg {
+    background-color: #5C7AEA;
+    border-radius: 50%;
+}
+
+.docimg:hover {
+    transform: scale(1.1);
+}
+
+.docuser {
+    background-color: lightcoral;
+    border-radius: 50%;
+}
+
+.docuser:hover {
+    transform: scale(1.1);
+}
+
+.docsprofile {
+    margin: 20%;
+    display: flex;
+    align-items: center;
+    background-color: #A2D2FF;
+}
+
+.docsprofile img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+}
+
+.docsprofile table {
+    font-size: 2em;
+    line-height: 4rem;
+    width: 150%;
+    color: lightslategrey;
+    font-family: monospace;
+}
+
+.docsprofile .docsdetails {
+    margin-left: 30%;
+}
+
+.ambulance {
+    height: 10rem;
+    width: 10rem;
+}
+
+.profile {
+    background-color: #A2D2FF;
+    margin: 0;
+    padding: 2%;
+}
+
+.pricing {
+    background-color: #DF2E2E;
+}
+
+.pricing p {
+    padding: 15%;
+}
+
+.pricing h1 {
+    text-align: center;
+    padding: 10%;
+    color: lightyellow;
+}
+
+.pricing .emg:hover {
+    transform: scale(1.1);
+}
+
+.emergency h1 {
+    padding: 5%;
+    text-align: center;
+    background-color: #DF2E2E;
+    color: aliceblue;
+}
+
+.emergency .dropdown {
+    padding: 5%;
+    text-align: center;
+    color: cornsilk;
+    background-color: cadetblue;
+}
+
+.emergency .input {
+    text-align: center;
+    padding: 5%;
+}
+
+.input button {
+    margin-top: 3%;
+    border-radius: 10%;
+    background-color: darkcyan;
+}
+
+.input button:hover {
+    transform: scale(1.1);
+}
+
+.input {
+    background-color: #A2D2FF;
+    margin-top: 1%;
+}
+
+.around {
+    display: flex;
+    padding: 5% 0;
+    text-align: center;
+    background-color: #DF2E2E;
+    color: cornsilk;
+}
+
+.result {
+    display: flex;
+    padding: 4%;
+}
+
+.result div {
+    margin: 3%;
+    padding: 5%;
+    background-color: #A2D2FF;
+    border-radius: 10%;
+}
+
+.result div:hover {
+    transform: scale(1.1);
+}
+
+.result div h3 {
+    font-family: monospace;
+    padding: 2%;
+}
